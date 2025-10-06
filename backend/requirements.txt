@@ -1,0 +1,36 @@
+# Core Framework
+fastapi
+uvicorn
+
+# Database
+pymongo[srv]
+motor
+dnspython
+
+# AI/ML - REPLACED: google-generativeai with openai
+openai
+
+# NLP & Text Processing
+nltk
+textblob
+scikit-learn
+
+# Utilities
+python-dotenv
+pydantic
+python-multipart
+python-dateutil
+structlog
+
+# Security
+python-jose[cryptography]
+PyJWT
+
+# Testing (optional)
+pytest
+pytest-asyncio
+httpx
+
+# REMOVED - No longer needed:
+# google-generativeai (replaced by openai)
+# Any rate limiting libraries (no API limits)
